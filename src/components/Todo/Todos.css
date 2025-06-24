@@ -1,0 +1,51 @@
+ .title {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .icon-todo {
+     background: yellow;
+     color: black;
+     padding: 5px 10px;
+     border-radius: 5px;
+ }
+
+ .text {
+     margin-top: 10px;
+     display: flex;
+     position: relative;
+     font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+ .text input {
+     flex: 1;
+     padding: 20px;
+     margin: 80px;
+     margin-top: 6px;
+     border: none;
+     border-radius: 5px;
+     font-family: Arial, Helvetica, sans-serif; 
+ }
+
+
+ .add-btn {
+     position: absolute;
+     right: 100px;
+     bottom: 85px;
+     background-color: #facc15;
+     color: white;
+     border: none;
+     padding: 14px;
+     width: 100px;
+     border-radius: 8px;
+ }
+
+ .add-btn:hover{
+    background-color: #faf7f7;
+    border: 3px solid yellow;
+    color: #facc15;
+ }

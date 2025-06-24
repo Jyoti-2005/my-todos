@@ -1,0 +1,82 @@
+.all-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  color: white;
+}
+
+.all-light {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 40px;
+  color: rgb(27, 26, 26);
+}
+
+.line {
+  width: 80%;
+  height: 4px;
+  background-color: yellow;
+  border: none;
+  margin: 10px auto;
+}
+
+.todo-item {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-light {
+  background-color: rgb(241, 235, 235);
+  border-radius: 10px;
+  color: black;
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-item h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.todo-light h1 {
+  font-size: 18px;
+  margin: 0;
+}
+
+button {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: crimson;
+}
+
+.blue{
+   border: none;
+  padding: 8px 16px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: yellow;
+  font: 'complete';
+}
+.red{
+  border: none;
+  padding: 8px 16px;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: crimson;
+  font: 'padding';
+}

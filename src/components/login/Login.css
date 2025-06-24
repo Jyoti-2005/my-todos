@@ -1,0 +1,56 @@
+.log-main {
+    background-color: #443e3e;
+    min-height: 100vh;
+    padding: 20px;
+    margin: auto;
+   
+}
+
+.login-box {
+    background-color: rgb(36, 34, 34);
+    width: 600px;
+    height: 450px;
+    padding: 35px;
+    border-radius: 17px;
+    margin: auto;
+    margin-top: 35px;
+
+}
+
+.login-title {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.title-login {
+    display: block;
+    margin-top: 15px;
+}
+
+.title-label {
+    display: block;
+    margin-bottom: 6px;
+    color: white;
+}
+
+.input-title {
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.login-btn {
+    padding: 15px 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+
+}
+.form-error{
+    color: red;
+}
